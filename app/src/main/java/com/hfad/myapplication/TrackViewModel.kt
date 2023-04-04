@@ -16,6 +16,7 @@ class TrackViewModel(
         Log.d("TEST", "init!: $trackId")
     }
 
+
     companion object {
 
         fun getViewModelFactory(trackId: String): ViewModelProvider.Factory =
