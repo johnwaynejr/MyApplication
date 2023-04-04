@@ -2,6 +2,7 @@ package com.hfad.myapplication
 
 import android.app.Application
 
+//В примере не было реализации TracksRepositoryImpl, здесь он подсвечивается красным
 class MyApplication: Application() {
     fun getRepository(): TracksRepositoryImpl {
         TracksRepositoryImpl(NetworkClientImpl())
