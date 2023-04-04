@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 import androidx.lifecycle.viewmodel.CreationExtras
 
+// Не понимаю, почему в примере в классе TrackViewModel после параметра TracksInteractor, запятая !
 class TrackViewModel(
     private val trackId: Int,
     private val tracksInteractor: TracksInteractor,
